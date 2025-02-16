@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  cursor: url(Assets/cursor.png), auto;
 }
 
 .App-logo {
@@ -29,6 +28,12 @@
   color: #61dafb;
 }
 
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin-top: -60px; 
+}
 
 @keyframes App-logo-spin {
   from {

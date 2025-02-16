@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header';
+import Page_name from './Components/Header';
+import Social_icons from './Components/Social_icons';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div className='Header'>
+      <Page_name />
+      <Social_icons />
+      </div>
     </div>
   );
 }

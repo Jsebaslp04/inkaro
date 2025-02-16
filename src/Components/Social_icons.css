@@ -1,0 +1,10 @@
+.icons {
+    width: 49px; 
+    padding: 5px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
