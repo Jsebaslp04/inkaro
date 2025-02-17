@@ -1,7 +1,4 @@
-import React from 'react';
-import './App.css';
-import Header from './Components/Header';
-
+import Header from './containers/Header/Header'
 
 function App() {
   return (
