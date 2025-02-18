@@ -1,13 +1,15 @@
-import Title from "../../components/Title/Title";
+import Title from '../../components/Title/Title'; 
+import IconSocial from '../../components/Icons_social/Icons_social'
+import './Header.css'
 
 function Header() {
-    const titulo = 'Juan Sebastian'
     return <>
-        <Title text={titulo} />
-        <Title text={titulo} />
-        <Title text={titulo} />
-        <Title text={titulo} />
-        <Title text={titulo} />
+        <nav className='header'>
+            <Title name_page="Tattoo Studio" />
+            <IconSocial />
+        
+            
+        </nav>
     </>
 }
 
