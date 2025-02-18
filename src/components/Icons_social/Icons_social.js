@@ -19,10 +19,7 @@ function IconSocial (){
             <a href='https://www.tiktok.com/@inkaro.tatt'>
             <img className='icons' src={TikTok}  />
             </a>
-        </div>
-        
-
-            
+        </div>      
     );
 }
 

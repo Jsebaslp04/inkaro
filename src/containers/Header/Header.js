@@ -7,8 +7,6 @@ function Header() {
         <nav className='header'>
             <Title name_page="Tattoo Studio" />
             <IconSocial />
-        
-            
         </nav>
     </>
 }
