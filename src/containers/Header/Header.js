@@ -1,5 +1,5 @@
 import Title from '../../components/Title/Title'; 
-import IconSocial from '../../components/Icons_social/Icons_social'
+import IconSocial from '../../components/IconSocial/IconSocial'
 import './Header.css'
 
 function Header() {
