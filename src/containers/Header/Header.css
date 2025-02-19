@@ -15,18 +15,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-left: 300px;
+    padding-left: 280px;
 }
 
-.Icons_social_media {
-    display: flex;
-    align-items: center;
-    width: 15%;
-}
 
-.letter_tittle {
-    font-family: "Mrs Saint Delafield", serif;
-    font-weight: lighter;
-    font-style: normal; 
-    font-size: 80px;
-}
+
