@@ -1,5 +1,10 @@
-function Title({ text }) {
-    return <h1>{text}</h1>
+import styles from './Title.module.css'
+
+
+function Title(props) {
+    return ( 
+        <h1 className={styles.title}>{props.name_page}</h1>
+    )
 }
 
-export default Title;
+export default Title
