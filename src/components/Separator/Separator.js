@@ -1,8 +1,7 @@
-function Separator (){
+let Separator = ({ width, height, display }) => {
 
-    return (
-        <span style={{ width: '100%', height: '16px', display: 'block'}}></span>
-    )
-}
+    let styles = {width, height, display };
+    return <span style={styles}></span>;
+};
 
 export default Separator

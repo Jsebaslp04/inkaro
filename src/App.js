@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Separator />
+      <Separator width="100%" height="16px" display="block" />
     </div>
   );
 }
