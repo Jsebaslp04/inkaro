@@ -4,7 +4,7 @@ import Banner from '../../assets/main_banner.jpg'
 function MainBanner (){
     return (
         <div className={styles.MainBanner}>
-            <img className={styles.mainBanner} src={Banner} alt='Main_Banner'  /> 
+            <img className={styles.mainbanner_img} src={Banner} alt='Main_Banner'  /> 
         </div>      
     );
 }
