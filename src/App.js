@@ -8,7 +8,6 @@ function App() {
       <Header />
       <Separator width="100%" height="16px" display="block" />
       <MainBanner />
-      <Separator width="100%" height="16px" display="block" />
     </div>
   );
 }
