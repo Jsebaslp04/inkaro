@@ -1,11 +1,10 @@
 import styles from './MainBanner.module.css'
-import Banner from '../../assets/main_banner.jpg'
 
-function MainBanner (){
+function MainBanner({ image, alt }) {
     return (
         <div className={styles.MainBanner}>
-            <img className={styles.mainbanner_img} src={Banner} alt='Main_Banner'  /> 
-        </div>      
+            <img className={styles.MainBanner_img} src={image} alt={alt} />
+        </div>
     );
 }
 

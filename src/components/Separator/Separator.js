@@ -1,6 +1,5 @@
-let Separator = ({ width, height, display }) => {
-
-    let styles = {width, height, display };
+let Separator = ({ height, color }) => {
+    let styles = { width: "100%", height: `${height}px`, display: 'block', backgroundColor: `${!color ? "white" : color}` };
     return <span style={styles}></span>;
 };
 
