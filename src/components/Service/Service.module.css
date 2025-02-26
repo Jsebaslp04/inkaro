@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    padding: 60px 60px 60px 60px;
+    background-color: #121212;
+}
+
+.container_description {
+    display: flex;
+}
+
+.letter_description {
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+    margin-top: 0px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.container_img {
+    margin-left: 133px;  
+  
+}
+
+.container_img_studio {
+    width: 500px;
+}
