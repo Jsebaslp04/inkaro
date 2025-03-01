@@ -1,6 +1,10 @@
-.MainBanner_img {
-    width: 100%;
+.MainBanner {
     display: flex;
-    align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    background-color: #121212;
+}
+
+.MainBanner_img {
+    max-width: 1280px;
+    width: 100%;
 }
